@@ -1,6 +1,6 @@
 
 public class lesson_1 {
-    //Задание 1
+    //Первое задание
     public static void main(String[] args) {
         //Задание 2
         int x = 10;
