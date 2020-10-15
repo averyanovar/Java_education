@@ -2,7 +2,7 @@
 public class lesson_1 {
     //Первое задание
     public static void main(String[] args) {
-        //Задание 2
+        //Второе задание
         int x = 10;
         int y = 20;
         int z = 15;
@@ -26,12 +26,12 @@ public class lesson_1 {
         greetings("Алексей");
         calendar(x3);
     }
-        //Задание 3
+        //Третье задание
         public static int calculate (int x, int y, int z, int i) {
         return x * (y + (z / i));
     }
 
-        //Задание 4
+        //Четвертое задание
         public static boolean task10and20 (int x1, int x2){
         if (x1+x2 <= 20 && x1+x2 >= 10){
             return true;
@@ -39,7 +39,7 @@ public class lesson_1 {
             return false;
     }
 
-        //Задание 5
+        //Пятое задание
 
         public static void isPositivivOrNegative (int x2){
         if (x2 >= 0){
@@ -48,7 +48,7 @@ public class lesson_1 {
             System.out.println("Результат к пятому заданию: Отрицательное");
     }
 
-        //Задание 6
+        //Шестое задание
 
         public static boolean isNegative (int x2){
         if (x2 < 0){
@@ -58,13 +58,13 @@ public class lesson_1 {
         }
     }
 
-        //Задание 7
+        //Седьмое задание
 
         public static void greetings (String name){
             System.out.println("Привет, " +name+ "!");
         }
 
-        //Задание 8*
+        //Восьмое задание*
         public static void calendar (int x3){
             if (x3 %100==0 && x3 %400 ==0 )
                 System.out.println("количество дней в году: 366");
