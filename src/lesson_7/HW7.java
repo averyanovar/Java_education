@@ -3,7 +3,7 @@ package lesson_7;
 public class HW7 {
     public static void main(String[] args) {
         Cat[] cats = {
-                new Cat("Мурзик", 15), new Cat("Васька", 10), new Cat("Вискас", 20)
+                new Cat("Мурзик", 15), new Cat("Васька", 10), new Cat("Петька", 20)
         };
         Plate plate = new Plate(50, 30);
         System.out.println(plate);
